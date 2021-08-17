@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Myapp</title>
+    <title><%= yield(:title) %> | <%= t "title_page" %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,9 @@
   </head>
 
   <body>
+    <br>
+    <%= link_to t("eng"), locale: :en %>
+    <%= link_to t("vnese"), locale: :vi %>
     <%= yield %>
   </body>
 </html>
