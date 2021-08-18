@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t("footer.introduce",
+    course: link_to(t("static_pages.home.tutorial"), "https://www.railstutorial.org/"),
+    author:  link_to( "Michael Hart", "https://www.michaelhartl.com/")).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.help.help"), help_path %></li>
+      <li><%= link_to t("static_pages.about.about"), about_path %></li>
+      <li><%= link_to t("static_pages.about.news"), "#" %></li>
+    </ul>
+  </nav>
+</footer>
