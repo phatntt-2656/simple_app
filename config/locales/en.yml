@@ -6,6 +6,11 @@ en:
   error_message:
     alert: "The form contains %{error}."
     error: "error"
+    wrong_password: "Invalid email or password combination"
+  header:
+    account: "Account"
+    setting: "Settings"
+    log_out: "Log out"
   footer:
     introduce: "The %{course} by %{author}"
   static_pages:
@@ -32,8 +37,18 @@ en:
       sign_up: "Sign Up"
     show:
       profile: "Profile"
+  sessions:
+    new:
+      log_in: "Log in"
+      remember_me: "Remember me?"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
   helpers:
     label:
       user:
         password_confirmation: "Confirmation password"
         submit_btn: "Create my account"
+      session:
+        email: "Email"
+        password: "Password"
+
