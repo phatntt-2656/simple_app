@@ -3,6 +3,9 @@ en:
   vnese: "Vietnamese"
   title_page: "Ruby on Rails Tutorial Sample App"
   by: "by"
+  error_message:
+    alert: "The form contains %{error}."
+    error: "error"
   footer:
     introduce: "The %{course} by %{author}"
   static_pages:
@@ -22,6 +25,15 @@ en:
       sample_intro: "To get help on this sample app, see: "
       sample_book: "Ruby on Rails Tutorial book."
   users:
+    create_success: "Register to the Sample App successful!!!"
+    create_fail: "Register to the Sample App fail, please try again!"
+    nil_user: "Couldn't find user, please try again!"
     new:
       sign_up: "Sign Up"
-
+    show:
+      profile: "Profile"
+  helpers:
+    label:
+      user:
+        password_confirmation: "Confirmation password"
+        submit_btn: "Create my account"

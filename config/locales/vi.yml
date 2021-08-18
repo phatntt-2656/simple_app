@@ -3,6 +3,9 @@ vi:
   vnese: "Tiếng Việt"
   title_page: "Hướng dẫn ứng dụng Ruby on Rails cơ bản"
   by: "bởi"
+  error_message:
+    alert: "Phát hiện %{error}, vui lòng nhập lại"
+    error: "lỗi"
   footer:
     introduce: "%{course} bởi %{author}"
   static_pages:
@@ -22,5 +25,19 @@ vi:
       sample_intro: "Hướng dẫn dựa trên ví dụ, xem tại: "
       sample_book: "Sách hướng dẫn Ruby on Rails"
   users:
+    create_success: "Đăng ký Sample App thành công!!!"
+    create_fail: "Đăng ký Sample App thất bại, vui lòng thử lại"
+    nil_user: "Không tìm thấy user vui lòng thử lại!"
     new:
       sign_up: "Đăng Ký"
+    show:
+      profile: "Trang cá nhân"
+  helpers:
+    label:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Nhập lại mật khẩu"
+        submit_btn: "Tạo tài khoản"
+
