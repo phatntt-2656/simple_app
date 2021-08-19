@@ -2,17 +2,25 @@ vi:
   eng: "Tiếng Anh"
   vnese: "Tiếng Việt"
   title_page: "Hướng dẫn ứng dụng Ruby on Rails cơ bản"
+  by: "bởi"
+  footer:
+    introduce: "%{course} bởi %{author}"
   static_pages:
     home:
       home: "Trang chủ"
       title: "Ứng dụng đơn giản"
       descripiton: "Đây là trang chủ cho "
       tutorial: "Bài hướng dẫn Ruby on Rails."
+      register: "Đăng ký ngay!"
     about:
       about: "Về chúng tôi"
+      news: "Tin tức"
     help:
       help: "Hướng dẫn"
       intro: "Hướng dẫn về Ruby on Rail tại: "
       help_page: "Trang hỗ trợ bài hướng dẫn Rails."
       sample_intro: "Hướng dẫn dựa trên ví dụ, xem tại: "
       sample_book: "Sách hướng dẫn Ruby on Rails"
+  users:
+    new:
+      sign_up: "Đăng Ký"
