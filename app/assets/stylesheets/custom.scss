@@ -77,24 +77,24 @@ footer {
   color: $gray-light;
 
   a {
-      color: $gray;
+    color: $gray;
 
-      &:hover {
-        color: $gray-darker;
-      }
+    &:hover {
+      color: $gray-darker;
+    }
   }
 
   small {
-      float: left;
+    float: left;
   }
 
   ul {
-      float: right;
-      list-style: none;
+    float: right;
+    list-style: none;
 
-      li {
-        float: left;
-        margin-left: 15px;
-      }
+    li {
+      float: left;
+      margin-left: 15px;
+    }
   }
 }
